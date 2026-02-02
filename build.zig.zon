@@ -1,8 +1,10 @@
 .{
-    .name = "zunicode",
+    .name = .zunicode,
     .version = "0.1.0",
-    .minimum_zig_version = "0.12.0",
+    .minimum_zig_version = "0.15.1",
+    .fingerprint = 0x166f392f6b24db16,
     .dependencies = .{},
+
     .paths = .{
         "build.zig",
         "build.zig.zon",

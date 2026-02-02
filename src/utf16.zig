@@ -1,6 +1,6 @@
 const std = @import("std");
 const mem = std.mem;
-const ArrayList = std.ArrayList;
+const ArrayList = std.array_list.Managed;
 const warn = std.debug.warn;
 
 pub const replacement_rune: i32 = 0xfffd;
